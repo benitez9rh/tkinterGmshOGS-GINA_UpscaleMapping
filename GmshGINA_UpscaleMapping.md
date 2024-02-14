@@ -13,13 +13,10 @@ Corresponding author: Gonçalo Cunha ([g.cunha@ed.ac.uk](g.cunha@ed.ac.uk))
 
 ## 2. Statement of need
 
-The reality.
+OpenGeoSys (OGS) is an open source numerical simulator for coupled thermo-hydraulic-mechanical-chemical (THMC) processes in porous and fractured media. OGS is used in several application areas such as contaminant transport, regional and coastal hydrology, geothermal systems and energy storage, CO<sub>2</sub> sequestration and hydrogen storage and nuclear waste managementa and disposal (Kolditz et al. (2012), Bilke et al. (2022)).
 
 
-## 3. Methodology
-
-
-### 3.1 Data
+## 3. Data
 
 The data required needs to be in a format that is readable by thePython Pandas package, such as tab delimited .txt or .csv files, and they must contain the required XYZ spatial information. The input mesh (.msh) files from Gmsh and imported (re-formatted) by GINA are also shown below.
 Below an example of the format required:
