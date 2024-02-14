@@ -1,4 +1,4 @@
-# Upscale and map scattered points onto Gmsh and OpenGeoSys GINA format mesh: a Tkinter Graphical User Interface Python code
+# Upscale and map scattered points onto OpenGeoSys GINA and Gmsh meshes formats: a Tkinter Graphical User Interface Python code
 
 Gonçalo Benitez Cunha<sup>1</sup>
 
