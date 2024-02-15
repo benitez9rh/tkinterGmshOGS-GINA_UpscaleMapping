@@ -29,6 +29,8 @@ The Code creates a Graphical User Interface (see GUI section below) for browsing
 
 ![Figure 1 - Attribute upscaled and mesh .msh file nodes locations. The coloured points show the a locations and value of the property from the input .csv file whereas the black crosses show the mesh nodes. Every four nearby nodes form the edges of a 2-dimensional quadrilateral element.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GmshAttributeDist.png)
 
+*Figure 1 - Attribute upscaled and mesh .msh file nodes locations. The coloured points show the a locations and value of the property from the input .csv file whereas the black crosses show the mesh nodes. Every four nearby nodes form the edges of a 2-dimensional quadrilateral element.*
+
 ### Element value prediction
 
 In the background, the code identifies the input points' X,Y locations and under which element the points will contribute to the prediction. This is dependent on the prediction method used.
@@ -36,12 +38,15 @@ The element value prediction depends on the averaging method chosen. If "Arithme
 
 ![Figure 2 - Averaging method. In "Arithmetic Averaging", the points within the bounds of each particular element will be avergaed and the result will be mapped to that element. In the case of "Element Centre Kriging", the input parameters used will form the major and minor continuity vectors which in turn make up the ellipse of correlation. The points within this ellipse will all contribute to the prediction of the point at the centre of the element; this may mean that points outside of the element or not all points inside the element will contribute to the prediction, depending on the input parameters used.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/PredictionMethod.png)
 
+*Figure 2 - Averaging method. In "Arithmetic Averaging", the points within the bounds of each particular element will be avergaed and the result will be mapped to that element. In the case of "Element Centre Kriging", the input parameters used will form the major and minor continuity vectors which in turn make up the ellipse of correlation. The points within this ellipse will all contribute to the prediction of the point at the centre of the element; this may mean that points outside of the element or not all points inside the element will contribute to the prediction, depending on the input parameters used.*
+
 ### Result
 
 Once the predictions for each element and the mapping have been made, the spatial distribution of the property in the mesh will look like in Figure 3.
 
 ![Figure 3 - The mesh is explicit in this figure where the locations where the mesh lines cross correspond to the nodes. The colour correspond to the upscaled and mapped property from the input .csv file.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/ModelAperture.png)
 
+*Figure 3 - The mesh is explicit in this figure where the locations where the mesh lines cross correspond to the nodes. The colour correspond to the upscaled and mapped property from the input .csv file.*
 
 ## Data
 
@@ -90,9 +95,11 @@ $EndElements
 
 ## GUI
 
-Below, a snippet of the GUI is provided below.
+A snippet of the GUI is provided in Figure 4.
 
-![Figure 3 - The GUI for mapping a property or attribute onto a mesh.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.PNG)
+![Figure 4 - The GUI for mapping a property or attribute onto a mesh.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.PNG)
+
+*Figure 4 - The GUI for mapping a property or attribute onto a mesh.*
 
 ### Browse frame
 The GUI allows you to browse for the .csv file containing the property data you wish to map onto the mesh as well as the mesh .msh file. Once you have done that, previews of the files are shwon in the corresponding preview entry boxes which allows for an easier input of the reading parameters without the need to open the files in third-party software. Check the columns you want to use from the file (containing the x and y locations as well as the property value) and type them in the "Columns to read" box separated by commas. If there is a header, type the header row value in the "Header row" entry box. IF there are any rows that you wish to skip, please also type the value in the "Rows to skip" entry box separated by commas if necessary. Leave blank if no rows to skip are necessary. Remember that Python indexing starts at 0 hence if you wish the first row to be read as the header, type 0 instead. 
