@@ -1,12 +1,12 @@
 # tkinterGmshOGS-GINA_UpscaleMapping
 
+## Installation
+
+The code itself doesn't require any installation but it requires a Python installation in the computer system.
+
 ## Dependencies
 
-The code itself doesn't require any installation but it requires a Python installation in the computer system as well as the Python packages installed in the Python installation through 
-
-```
-pip install <package>
-```
+The code has some Python packages dependencies. You can use the command ```pip install ``` followed by a whitespace and the package name in your Python terminal to install the packages into your library.
 
 The list of package dependencies is as follows:
 
@@ -139,6 +139,8 @@ The code outputs a tab delimited .txt file, which can also be read as a .csv, co
 ```
 
 The code can output the matplotlib.pyplot plots shown above.
+
+The output system address is the same as the .msh file browsed.
 
 ## Pitfalls
 
