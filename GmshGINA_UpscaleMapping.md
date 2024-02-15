@@ -14,7 +14,7 @@ The Graphical User Interface (GUI) presented in this paper offers the option to 
 
 ![tkinterGmshOGS-GINA_UpscaleMapping GUI](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.PNG)
 
-*Figure 1 - tkinter GUI for property upscale and mapping onto Gmsh and  OGS GINA's mesh*
+*Figure 1 - tkinter GUI for property upscale and mapping onto Gmsh and  OGS GINA's mesh formats*
 
 ## 2. Statement of need
 
