@@ -29,7 +29,7 @@ bibliography: paper.bib
 OpenGeoSys (OGS) is an open-source numerical simulator for coupled thermal-hydraulic-mechanical-chemical (THMC) processes, particularly in porous and fractured media. OGS is used in several application modelling areas such as contaminant transport, regional and coastal hydrology, geothermal systems and energy storage, CO<sub>2</sub> sequestration and hydrogen storage and nuclear waste management and disposal [@kolditz2012; @bilke2022]. OGS utilises mesh files to discretise the domain for the numerical simulations, which are created by other software such as Gmsh [@gmsh], as well as element properties which are frequently heterogeneous across the domain.
 The Graphical User Interface (GUI) presented in this paper offers the option to map a property onto a 2-dimensional quadrilateral mesh which OGS can then use to compute the numerical simulation, whilst offering some upscaling options including arithmetic averaging and spherical Ordinary Kriging through PyKrige [@pykrige].
 
-![Figure 1 - GUI\label{fig:GUI}](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.png)
+![Figure 1 - GUI\label{fig:GUI}](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.jpg)
 
 ## Statement of need
 
