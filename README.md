@@ -25,9 +25,9 @@ The list of package dependencies is as follows:
 
 ## Description
 
-The Code creates a Graphical User Interface (see GUI section below) for browsing the input files and selecting/typing the necessary input parameters. The spatial distribution of the input points across the mesh domain and under which elements they fall is illustrated in \autoref{fig:GmshAttributeDist}.
+The Code creates a Graphical User Interface (see GUI section below) for browsing the input files and selecting/typing the necessary input parameters. The spatial distribution of the input points across the mesh domain and under which elements they fall is illustrated in Figure 1.
 
-![Figure 1 - Attribute upscaled and mesh .msh file nodes locations. The coloured points show the a locations and value of the property from the input .csv file whereas the black crosses show the mesh nodes. Every four nearby nodes form the edges of a 2-dimensional quadrilateral element.\autoref{fig:GmshAttributeDist}](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GmshAttributeDist.png)
+![Figure 1 - Attribute upscaled and mesh .msh file nodes locations. The coloured points show the a locations and value of the property from the input .csv file whereas the black crosses show the mesh nodes. Every four nearby nodes form the edges of a 2-dimensional quadrilateral element.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GmshAttributeDist.png)
 
 *Figure 1 - Attribute upscaled and mesh .msh file nodes locations. The coloured points show the a locations and value of the property from the input .csv file whereas the black crosses show the mesh nodes. Every four nearby nodes form the edges of a 2-dimensional quadrilateral element.*
 
@@ -36,15 +36,15 @@ The Code creates a Graphical User Interface (see GUI section below) for browsing
 In the background, the code identifies the input points' X,Y locations and under which element the points will contribute to the prediction. This is dependent on the prediction method used.
 The element value prediction depends on the averaging method chosen. If "Arithmetic Averaging" method is chosen, the points within the bounds of each particular element will be averaged and the result will be mapped to that element. If "Element Centre Kriging" is chosen, the input parameters used will form the major and minor continuity vectors which in turn make up the ellipse of correlation. The points within this ellipse will all contribute to the prediction of the point at the centre of the element with varying contributing weights; this may mean that points outside of the element or not all points inside the element will contribute to the prediction. The contributing weights of the points used and which points are used in this prediction both depend on the input parameters used.
 
-![Figure 2 - Averaging method. In "Arithmetic Averaging", the points within the bounds of each particular element will be avergaed and the result will be mapped to that element. In the case of "Element Centre Kriging", the input parameters used will form the major and minor continuity vectors which in turn make up the ellipse of correlation. The points within this ellipse will all contribute to the prediction of the point at the centre of the element; this may mean that points outside of the element or not all points inside the element will contribute to the prediction, depending on the input parameters used.\label{fig:PredictionMethod}](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/PredictionMethod.png)
+![Figure 2 - Averaging method. In "Arithmetic Averaging", the points within the bounds of each particular element will be avergaed and the result will be mapped to that element. In the case of "Element Centre Kriging", the input parameters used will form the major and minor continuity vectors which in turn make up the ellipse of correlation. The points within this ellipse will all contribute to the prediction of the point at the centre of the element; this may mean that points outside of the element or not all points inside the element will contribute to the prediction, depending on the input parameters used.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/PredictionMethod.png)
 
 *Figure 2 - Averaging method. In "Arithmetic Averaging", the points within the bounds of each particular element will be avergaed and the result will be mapped to that element. In the case of "Element Centre Kriging", the input parameters used will form the major and minor continuity vectors which in turn make up the ellipse of correlation. The points within this ellipse will all contribute to the prediction of the point at the centre of the element; this may mean that points outside of the element or not all points inside the element will contribute to the prediction, depending on the input parameters used.*
 
 ### Result
 
-Once the predictions for each element and the mapping have been made, the spatial distribution of the property in the mesh will look like in Figure \label{fig:ModelAperture}.
+Once the predictions for each element and the mapping have been made, the spatial distribution of the property in the mesh will look like in Figure 3.
 
-![Figure 3 - The mesh is explicit in this figure where the locations where the mesh lines cross correspond to the nodes. The colour correspond to the upscaled and mapped property from the input .csv file.\label{fig:ModelAperture}](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/ModelAperture.png)
+![Figure 3 - The mesh is explicit in this figure where the locations where the mesh lines cross correspond to the nodes. The colour correspond to the upscaled and mapped property from the input .csv file.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/ModelAperture.png)
 
 *Figure 3 - The mesh is explicit in this figure where the locations where the mesh lines cross correspond to the nodes. The colour correspond to the upscaled and mapped property from the input .csv file.*
 
@@ -97,7 +97,7 @@ $EndElements
 
 A snippet of the GUI is provided in \label{fig:GUI}.
 
-![Figure 4 - The GUI for mapping a property or attribute onto a mesh.\label{fig:GUI}](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.PNG)
+![Figure 4 - The GUI for mapping a property or attribute onto a mesh.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.PNG)
 
 *Figure 4 - The GUI for mapping a property or attribute onto a mesh.*
 
@@ -135,7 +135,7 @@ The code outputs a tab delimited .txt file, which can also be read as a .csv, co
   1  0.2
   2  0.3
 #STOP
-// Averaging method: {prediction_method.get()}
+// Averaging method: Arithmetic Averaging
 ```
 
 The code can output the matplotlib.pyplot plots shown above.
