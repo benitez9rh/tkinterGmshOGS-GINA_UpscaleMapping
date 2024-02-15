@@ -95,7 +95,7 @@ $EndElements
 
 ## GUI
 
-A snippet of the GUI is provided in \label{fig:GUI}.
+A snippet of the GUI is provided in Figure 4.
 
 ![Figure 4 - The GUI for mapping a property or attribute onto a mesh.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.PNG)
 
