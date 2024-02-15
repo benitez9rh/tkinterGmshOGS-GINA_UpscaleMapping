@@ -38,3 +38,4 @@ The GUI streamlines the experience to browse the property and mesh files making 
 
 ## Acknowledgements
 
+The work was supported by grant reference sponsored by the school of geosciences at The University of Edinburgh, Quintessa and Nuclear Waste Services UK.
