@@ -9,11 +9,12 @@ Corresponding author: Gonçalo Cunha ([g.cunha@ed.ac.uk](g.cunha@ed.ac.uk))
 
 ## 1. Summary
 
-
+OpenGeoSys (OGS) is an open source numerical simulator for coupled thermo-hydraulic-mechanical-chemical (THMC) processes, particularly in porous and fractured media. Due to the fact that it is open source, it requires prior data structure formats and coding knowledge, apart from the scientific knowledge intrinsic to THMC coupled processes and numerical modelling. 
+In this paper, we present a graphical user interface writen in Python using tkinter
 
 ## 2. Statement of need
 
-OpenGeoSys (OGS) is an open source numerical simulator for coupled thermo-hydraulic-mechanical-chemical (THMC) processes in porous and fractured media. OGS is used in several application areas such as contaminant transport, regional and coastal hydrology, geothermal systems and energy storage, CO<sub>2</sub> sequestration and hydrogen storage and nuclear waste managementa and disposal (Kolditz et al. (2012), Bilke et al. (2022)).
+OpenGeoSys (OGS) is an open source numerical simulator for coupled thermo-hydraulic-mechanical-chemical (THMC) processes in porous and fractured media. OGS is used in several application areas such as contaminant transport, regional and coastal hydrology, geothermal systems and energy storage, CO<sub>2</sub> sequestration and hydrogen storage and nuclear waste management and disposal (Kolditz et al. (2012), Bilke et al. (2022)).
 
 
 ## 3. Data
