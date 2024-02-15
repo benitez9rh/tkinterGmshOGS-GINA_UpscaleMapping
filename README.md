@@ -144,3 +144,7 @@ The code can output the matplotlib.pyplot plots shown above.
 
 The code testing performed thus far shows the code behaves well and runs quickly, especially when using "Arithmetic Averaging".
 The code broke for lack of available memory during the PyKrige section when using "Element Centre Kriging" with more than 100,000 input points. This is due to the amount of memory necessary to build the kriging matrix inside the PyKrige.OrdinaryKriging code. Caution is advised when using large datasets.
+
+## Testing
+
+There are some testing files available in the "Testing" folder to use. Since the code can handle both .msh files from Gmsh and from OGS' GINA pre/post-processor, both meshes are provided. GINA ocasionally outputs a .msh_of file which contains some information that is useful and when that happens, the code jumps over some geometric calculations, saving computing time.
