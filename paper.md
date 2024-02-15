@@ -12,7 +12,7 @@ authors:
 - name: Gonçalo Benitez Cunha
 - corresponding: true
 - orcid: 0009-0007-5441-3790
-- affiliation: "1"
+- affiliation: 1
 
 affiliations:
 - name: The University of Edinburgh, Scotland, United Kingdom
