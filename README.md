@@ -97,7 +97,7 @@ $EndElements
 
 A snippet of the GUI is provided in Figure 4.
 
-![Figure 4 - The GUI for mapping a property or attribute onto a mesh.](https://github.com/benitez9rh/tkinterGmshOGS-GINA_UpscaleMapping/blob/main/GUI.PNG)
+![Figure 4 - The GUI for mapping a property or attribute onto a mesh.](Testing/GUI.png)
 
 *Figure 4 - The GUI for mapping a property or attribute onto a mesh.*
 
