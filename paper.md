@@ -1,12 +1,13 @@
 ---
 title: 'Upscale and map scattered points onto OpenGeoSys GINA and Gmsh meshes formats: a Tkinter Graphical User Interface Python code'
+
 tags:
 - Python
-- Tkinter
+- Tkinter GUI
 - OpenGeoSys
 - Gmsh
 - Finite Element Method
-- Mesh
+- Numerical modelling
 
 authors:
 - name: Gonçalo Benitez Cunha
@@ -41,7 +42,7 @@ The GUI streamlines the experience to browse the property and mesh files making 
 ## Acknowledgements
 
 This work was possible due to the sponsorship of Quintessa, the School of Geosciences at the The University of Edinburgh and Nuclear Waste Services, part of the Nuclear Decommissioning Authority in the United Kingdom.
-The code uses various other Python's [@VanRossum1995] packages such as PyKrige [@Murphy2022], Scipy [@Virtanen2020], Pandas [@McKinney2010], Numpy [@Harris2020] and matplotlib [@Hunter2007]. Other non-published code used is cited and acknowledged accordingly as comments and/or links in the code.
+The code uses various other Python's [@VanRossum1995] packages such as PyKrige [@Murphy2022], Scipy [@Virtanen2020], Pandas [@McKinney2010], Numpy [@Harris2020] and matplotlib [@Hunter2007]. Other smaller and non-published code contributions used are cited and acknowledged accordingly as comments and/or links in the code.
 
 
 ## References
