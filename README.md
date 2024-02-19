@@ -44,7 +44,7 @@ The element value prediction depends on the averaging method chosen. If "Arithme
 
 Once the predictions for each element and the mapping have been made, the spatial distribution of the property in the mesh will look like in Figure 3.
 
-![Figure 3 - The mesh is explicit in this figure where the locations where the mesh lines cross correspond to the nodes. The colour correspond to the upscaled and mapped property from the input .csv file.](Figures/ModelAperture.png)
+![Figure 3 - The mesh is explicit in this figure where the locations where the mesh lines cross correspond to the nodes. The colour correspond to the upscaled and mapped property from the input .csv file.](Figures/UpscaledAndMshMappedAttribute.png)
 
 *Figure 3 - The mesh is explicit in this figure where the locations where the mesh lines cross correspond to the nodes. The colour correspond to the upscaled and mapped property from the input .csv file.*
 
