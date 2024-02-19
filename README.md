@@ -55,7 +55,7 @@ Below an example of the format required:
 
 ```
 ***  .csv  ***
-x	y	aperture	avg	var	std
+x	y	diff	avg	var	std
 -22.5	-32.5	0.49977896	0.515901725	0.005059804	0.071132302
 -22.5	-31.5	0.48803121	0.508111098	0.004592228	0.067765978         
 ...     ...     ...         ...         ...         ...
