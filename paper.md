@@ -34,8 +34,8 @@ This paper presents a Graphicalk User Interface (GUI), coded in tkinter [@Lundh1
 
 ## Statement of need
 
-Numerical modelling techniques, such as Finite Element Method (FEM), rely on media properties, including in coupled thermal-hydraulic-mechanical-chemical (THMC) processes. Frequently, these properties are not homogeneous across the domain. In these situations, there is often a need to map a property from a .csv point cloud format onto the model's mesh for numerical simulation. This would look like a property value per element .txt or .csv file, requiring prior data structure formats and coding knowledge.
-In this paper, we try to partially bridge that gap by presenting a user-friendly graphical user interface (GUI) writen in Python using tkinter [@Lundh1999]. The code maps a property onto a 2-dimensional quadrilateral element mesh whilst providing some upscaling options and can handle OpenGeoSys's GINA [@Kolditz2016] and Gmsh .msh formats.
+Numerical modelling techniques, such as Finite Element Method (FEM), rely on media properties, including in coupled thermal-hydraulic-mechanical-chemical (THMC) processes. Frequently, these properties are not homogeneous across the domain. In these situations, there is often a need to map a property from a .csv point cloud format onto the model's mesh for numerical simulation. In other words, a .txt or .csv file containing the upscaled property value per element, which would require prior data structure formats and coding knowledge to construct.
+In this paper, we try to partially bridge that gap by presenting a user-friendly graphical user interface (GUI) writen in Python using tkinter [@Lundh1999]. The code maps a property onto a 2-dimensional quadrilateral element mesh whilst providing some upscaling options and can handle OpenGeoSys's GINA [@Kolditz2016] and Gmsh [@Gmsh2020] .msh formats.
 The GUI streamlines the experience to browse the property and mesh files making it simple and easy to use and quickly providing the user with a file to input in OGS to continue with the numerical simulation without the need to code.
 
 
