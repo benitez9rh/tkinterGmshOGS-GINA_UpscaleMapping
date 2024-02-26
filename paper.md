@@ -10,14 +10,14 @@ tags:
 - Numerical modelling
 
 authors:
-- name: Gonçalo Benitez Cunha
-- corresponding: true
-- orcid: 0009-0007-5441-3790
-- affiliation: "1"
+  - name: Gonçalo Benitez Cunha
+    orcid: 0009-0007-5441-3790
+    corresponding: true
+    affiliation: "1"
 
 affiliations:
-- name: The University of Edinburgh, Scotland, United Kingdom
-  index: 1
+ - name: The University of Edinburgh, Scotland, United Kingdom
+   index: 1
   
 date: 15 February 2024
 
